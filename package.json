@@ -1,7 +1,11 @@
 {
-  "name": "brainrow",
+  "name": "brainraw",
   "private": true,
   "packageManager": "npm@10.8.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Manavault-Dev/BrainrawAi.git"
+  },
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
     "dev": "turbo run dev --parallel",
