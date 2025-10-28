@@ -1,8 +1,15 @@
 import OpenAI from "openai";
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! });
+const apiKey = process.env.OPENAI_API_KEY;
+
+// Create client only if API key is available
+const client = apiKey ? new OpenAI({ apiKey }) : null;
 
 export async function generateStoryboard(prompt: string) {
+  if (!client) {
+    throw new Error("OpenAI API key is not configured. Please set OPENAI_API_KEY in .env file.");
+  }
+
   const sys = `You output ONLY valid JSON {title, steps:[{id,speak,draw:[...]},...]}. 
 draw supports: pen(points), rect(x,y,w,h,label), text(x,y,text), arrow(from{x,y},to{x,y}).`;
 
