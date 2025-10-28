@@ -1,0 +1,25 @@
+
+> @brainrow/backend@0.1.0 dev
+> tsx watch src/index.ts
+
+[1G[0K/Users/tilek/Desktop/Manavault/Brainrow/apps/backend/node_modules/openai/src/index.ts:272
+      throw new Errors.OpenAIError(
+            ^
+
+
+OpenAIError: The OPENAI_API_KEY environment variable is missing or empty; either provide it, or instantiate the OpenAI client with an apiKey option, like new OpenAI({ apiKey: 'My API Key' }).
+    at new OpenAI [90m(/Users/tilek/Desktop/Manavault/Brainrow/apps/backend/[39mnode_modules/[4mopenai[24m/src/index.ts:272:13[90m)[39m
+    at <anonymous> [90m(/Users/tilek/Desktop/Manavault/Brainrow/apps/backend/[39msrc/services/openaiService.ts:3:16[90m)[39m
+[90m    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)[39m
+[90m    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)[39m
+[90m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)[39m
+
+Node.js v20.19.5
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m Lifecycle script `dev` failed with error:
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mcode[39m [33m2[39m
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mpath[39m /Users/tilek/Desktop/Manavault/Brainrow/apps/backend
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mworkspace[39m @brainrow/backend@0.1.0
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mlocation[39m /Users/tilek/Desktop/Manavault/Brainrow/apps/backend
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m command failed
+[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mcommand[39m sh -c tsx watch src/index.ts
+[1G[0K⠙[1G[0K

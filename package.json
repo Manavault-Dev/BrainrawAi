@@ -1,0 +1,18 @@
+{
+  "name": "brainrow",
+  "private": true,
+  "packageManager": "npm@10.8.3",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.6.3",
+    "eslint": "^9.12.0",
+    "prettier": "^3.3.3"
+  }
+}
