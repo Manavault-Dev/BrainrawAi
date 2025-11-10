@@ -18,7 +18,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="group">
             <div className="flex items-center ">
-              <div className="relative w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 -mr-7">
+              <div className="relative w-16 h-16 sm:ml-0 sm:w-20 sm:h-20 md:w-24 md:h-24 md:-mr-7 lg:-mr-7 ">
                 <Image
                   src={logo}
                   alt="Brainraw Logo"

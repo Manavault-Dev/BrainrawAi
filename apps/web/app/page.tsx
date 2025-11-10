@@ -62,7 +62,7 @@ function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 bg-[#0B0B0B] pt-28 sm:pt-32">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 bg-[#0B0B0B] pt-24 sm:pt-28">
       {/* Animated Background Gradient */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#6A28D7]/20 rounded-full blur-3xl animate-pulse" />
