@@ -1,0 +1,213 @@
+
+> web@0.1.0 dev
+> next dev
+
+[1G[0K   [1m[38;2;173;127;168m▲ Next.js 16.0.1[39m[22m (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.101:3000
+   - Environments: .env.local
+
+ [32m[1m✓[22m[39m Starting...
+ [32m[1m✓[22m[39m Ready in 530ms
+ GET / [32m200[39m in 1457ms[2m (compile: 1373ms, render: 84ms)[22m
+Supabase error: {
+  code: [32m'PGRST205'[39m,
+  details: [1mnull[22m,
+  hint: [32m"Perhaps you meant the table 'public.waitlit'"[39m,
+  message: [32m"Could not find the table 'public.waitlist' in the schema cache"[39m
+}
+Waitlist API error: {
+  code: [32m'PGRST205'[39m,
+  details: [1mnull[22m,
+  hint: [32m"Perhaps you meant the table 'public.waitlit'"[39m,
+  message: [32m"Could not find the table 'public.waitlist' in the schema cache"[39m
+}
+ POST /api/waitlist [31m500[39m in 905ms[2m (compile: 185ms, render: 720ms)[22m
+Supabase error: {
+  code: [32m'42501'[39m,
+  details: [1mnull[22m,
+  hint: [1mnull[22m,
+  message: [32m'new row violates row-level security policy for table "waitlit"'[39m
+}
+Waitlist API error: {
+  code: [32m'42501'[39m,
+  details: [1mnull[22m,
+  hint: [1mnull[22m,
+  message: [32m'new row violates row-level security policy for table "waitlit"'[39m
+}
+ POST /api/waitlist [31m500[39m in 685ms[2m (compile: 66ms, render: 619ms)[22m
+✅ New waitlist signup saved to database: { name: [32m'tilek'[39m, email: [32m'tilek.dzenisev@gmail.com'[39m, id: [33m2[39m }
+ POST /api/waitlist [32m200[39m in 425ms[2m (compile: 5ms, render: 419ms)[22m
+ GET / [32m200[39m in 89ms[2m (compile: 71ms, render: 18ms)[22m
+ GET / [32m200[39m in 64ms[2m (compile: 45ms, render: 19ms)[22m
+ GET / [32m200[39m in 93ms[2m (compile: 8ms, render: 85ms)[22m
+ [32m[1m✓[22m[39m Compiled in 346ms
+ GET / [32m200[39m in 338ms[2m (compile: 313ms, render: 25ms)[22m
+ GET / [32m200[39m in 10ms[2m (compile: 3ms, render: 8ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1405µs, render: 6ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1645µs, render: 7ms)[22m
+ GET / [32m200[39m in 11ms[2m (compile: 2ms, render: 9ms)[22m
+ GET / [32m200[39m in 10ms[2m (compile: 1238µs, render: 8ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1308µs, render: 7ms)[22m
+ GET / [32m200[39m in 11ms[2m (compile: 1468µs, render: 9ms)[22m
+ GET / [32m200[39m in 12ms[2m (compile: 1390µs, render: 10ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1282µs, render: 7ms)[22m
+ GET / [32m200[39m in 10ms[2m (compile: 1292µs, render: 9ms)[22m
+ [32m[1m✓[22m[39m Compiled in 190ms
+ GET / [32m200[39m in 238ms[2m (compile: 218ms, render: 19ms)[22m
+ GET / [32m200[39m in 7ms[2m (compile: 1536µs, render: 6ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1450µs, render: 6ms)[22m
+ GET / [32m200[39m in 7ms[2m (compile: 1160µs, render: 6ms)[22m
+ GET / [32m200[39m in 10ms[2m (compile: 1104µs, render: 9ms)[22m
+ GET / [32m200[39m in 18ms[2m (compile: 3ms, render: 16ms)[22m
+ GET / [32m200[39m in 7ms[2m (compile: 1343µs, render: 6ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1348µs, render: 7ms)[22m
+ GET / [32m200[39m in 7ms[2m (compile: 986µs, render: 6ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1172µs, render: 6ms)[22m
+ GET / [32m200[39m in 7ms[2m (compile: 915µs, render: 6ms)[22m
+ GET / [32m200[39m in 10ms[2m (compile: 1447µs, render: 8ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1015µs, render: 7ms)[22m
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / [32m200[39m in 71ms[2m (compile: 53ms, render: 18ms)[22m
+ GET / [32m200[39m in 114ms[2m (compile: 7ms, render: 108ms)[22m
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ [32m[1m✓[22m[39m Compiled in 186ms
+ GET / [32m200[39m in 315ms[2m (compile: 228ms, render: 87ms)[22m
+ GET / [32m200[39m in 73ms[2m (compile: 1501µs, render: 71ms)[22m
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ [32m[1m✓[22m[39m Compiled in 133ms
+ GET / [32m200[39m in 243ms[2m (compile: 165ms, render: 77ms)[22m
+ GET / [32m200[39m in 66ms[2m (compile: 1106µs, render: 65ms)[22m
+ [32m[1m✓[22m[39m Compiled in 55ms
+ [32m[1m✓[22m[39m Compiled in 16ms
+ [32m[1m✓[22m[39m Compiled in 32ms
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / [32m200[39m in 178ms[2m (compile: 75ms, render: 103ms)[22m
+ [32m[1m✓[22m[39m Compiled in 24ms
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ [32m[1m✓[22m[39m Compiled in 94ms
+ GET / [32m200[39m in 112ms[2m (compile: 86ms, render: 27ms)[22m
+ GET / [32m200[39m in 25ms[2m (compile: 1352µs, render: 24ms)[22m
+ GET / [32m200[39m in 52ms[2m (compile: 4ms, render: 47ms)[22m
+ GET / [32m200[39m in 27ms[2m (compile: 3ms, render: 24ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1452µs, render: 6ms)[22m
+ GET / [32m200[39m in 11ms[2m (compile: 1142µs, render: 10ms)[22m
+ GET / [32m200[39m in 10ms[2m (compile: 1211µs, render: 8ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1046µs, render: 7ms)[22m
+ GET / [32m200[39m in 10ms[2m (compile: 2ms, render: 8ms)[22m
+ GET / [32m200[39m in 12ms[2m (compile: 1246µs, render: 11ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1319µs, render: 7ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 1449µs, render: 7ms)[22m
+ GET / [32m200[39m in 10ms[2m (compile: 1127µs, render: 9ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1273µs, render: 7ms)[22m
+ GET / [32m200[39m in 11ms[2m (compile: 1205µs, render: 9ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 1130µs, render: 8ms)[22m
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / [32m200[39m in 85ms[2m (compile: 67ms, render: 18ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 2ms, render: 6ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 1458µs, render: 7ms)[22m
+ GET / [32m200[39m in 11ms[2m (compile: 1433µs, render: 10ms)[22m
+ GET / [32m200[39m in 16ms[2m (compile: 1628µs, render: 14ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1259µs, render: 7ms)[22m
+ GET / [32m200[39m in 10ms[2m (compile: 1159µs, render: 9ms)[22m
+ GET / [32m200[39m in 13ms[2m (compile: 1692µs, render: 11ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 1466µs, render: 7ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 941µs, render: 8ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 1145µs, render: 7ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1068µs, render: 7ms)[22m
+ GET / [32m200[39m in 7ms[2m (compile: 1087µs, render: 6ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 1801µs, render: 7ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 988µs, render: 8ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1176µs, render: 7ms)[22m
+ [32m[1m✓[22m[39m Compiled in 33ms
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / [32m200[39m in 157ms[2m (compile: 69ms, render: 88ms)[22m
+ GET /privacy [32m200[39m in 195ms[2m (compile: 161ms, render: 34ms)[22m
+ GET / [32m200[39m in 59ms[2m (compile: 16ms, render: 42ms)[22m
+ GET /terms [32m200[39m in 235ms[2m (compile: 166ms, render: 69ms)[22m
+ GET / [32m200[39m in 48ms[2m (compile: 6ms, render: 41ms)[22m
+ [32m[1m✓[22m[39m Compiled in 40ms
+ [32m[1m✓[22m[39m Compiled in 34ms
+ [32m[1m✓[22m[39m Compiled in 22ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ [32m[1m✓[22m[39m Compiled in 56ms
+ GET / [32m200[39m in 152ms[2m (compile: 63ms, render: 89ms)[22m
+ GET /privacy [32m200[39m in 55ms[2m (compile: 13ms, render: 41ms)[22m
+ GET / [32m200[39m in 47ms[2m (compile: 9ms, render: 38ms)[22m
+ GET /privacy [32m200[39m in 31ms[2m (compile: 2ms, render: 29ms)[22m
+ GET / [32m200[39m in 48ms[2m (compile: 7ms, render: 41ms)[22m
+ [32m[1m✓[22m[39m Compiled in 28ms
+ [32m[1m✓[22m[39m Compiled in 28ms
+ [32m[1m✓[22m[39m Compiled in 24ms
+ [32m[1m✓[22m[39m Compiled in 20ms
+ [32m[1m✓[22m[39m Compiled in 28ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 54ms
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ [31m[1m⨯[22m[39m ReferenceError: FAQSection is not defined
+    at LandingPage (app/page.tsx:29:10)
+[0m [90m 27 |[39m
+ [90m 28 |[39m         {[90m/* FAQ Section */[39m}
+[31m[1m>[22m[39m[90m 29 |[39m         [33m<[39m[33mFAQSection[39m [33m/[39m[33m>[39m
+ [90m    |[39m          [31m[1m^[22m[39m
+ [90m 30 |[39m
+ [90m 31 |[39m         {[90m/* Testimonials Section */[39m}
+ [90m 32 |[39m         [33m<[39m[33mTestimonialsSection[39m [33m/[39m[33m>[39m[0m {
+  digest: [32m'2256554978'[39m
+}
+ GET / [31m500[39m in 246ms[2m (compile: 149ms, render: 96ms)[22m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ [32m[1m✓[22m[39m Compiled in 20ms
+ GET / [32m200[39m in 160ms[2m (compile: 44ms, render: 116ms)[22m
+ [32m[1m✓[22m[39m Compiled in 22ms
+ [32m[1m✓[22m[39m Compiled in 70ms
+ [32m[1m✓[22m[39m Compiled in 25ms
+ [32m[1m✓[22m[39m Compiled in 32ms
+ [32m[1m✓[22m[39m Compiled in 27ms
+ [32m[1m✓[22m[39m Compiled in 33ms
+ [32m[1m✓[22m[39m Compiled in 103ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ [32m[1m✓[22m[39m Compiled in 30ms
+ GET / [32m200[39m in 191ms[2m (compile: 74ms, render: 117ms)[22m
+ [32m[1m✓[22m[39m Compiled in 123ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ [32m[1m✓[22m[39m Compiled in 77ms
+ GET / [32m200[39m in 175ms[2m (compile: 58ms, render: 117ms)[22m
+ [32m[1m✓[22m[39m Compiled in 222ms
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ [32m[1m✓[22m[39m Compiled in 20ms
+ GET / [32m200[39m in 179ms[2m (compile: 73ms, render: 105ms)[22m
+ [32m[1m✓[22m[39m Compiled in 165ms
+ GET /privacy [32m200[39m in 76ms[2m (compile: 16ms, render: 60ms)[22m
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / [32m200[39m in 143ms[2m (compile: 73ms, render: 69ms)[22m
+ GET /terms [32m200[39m in 56ms[2m (compile: 18ms, render: 37ms)[22m
+ GET /terms [32m200[39m in 22ms[2m (compile: 3ms, render: 18ms)[22m
+ [32m[1m✓[22m[39m Compiled in 15ms
+ GET /terms [32m200[39m in 17ms[2m (compile: 2ms, render: 14ms)[22m
+ [32m[1m✓[22m[39m Compiled in 18ms
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET /terms [32m200[39m in 83ms[2m (compile: 65ms, render: 19ms)[22m
+ [32m[1m✓[22m[39m Compiled in 22ms
+ GET /terms [33m404[39m in 211ms[2m (compile: 201ms, render: 9ms)[22m
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET /terms [32m200[39m in 97ms[2m (compile: 39ms, render: 57ms)[22m
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / [32m200[39m in 135ms[2m (compile: 69ms, render: 66ms)[22m
+ [32m[1m✓[22m[39m Compiled in 20ms
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET /privacy [32m200[39m in 108ms[2m (compile: 74ms, render: 34ms)[22m
+ [33m[1m⚠[22m[39m metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+ GET / [32m200[39m in 149ms[2m (compile: 68ms, render: 81ms)[22m
+ [32m[1m✓[22m[39m Compiled in 25ms
+ GET / [32m200[39m in 156ms[2m (compile: 136ms, render: 20ms)[22m
+ GET / [32m200[39m in 13ms[2m (compile: 1451µs, render: 11ms)[22m
+ GET / [32m200[39m in 8ms[2m (compile: 1104µs, render: 6ms)[22m
+ GET / [32m200[39m in 9ms[2m (compile: 1102µs, render: 8ms)[22m
+[?25h
+[1G[0K⠙[1G[0K
