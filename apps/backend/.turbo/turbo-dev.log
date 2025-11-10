@@ -3,12 +3,3 @@
 > tsx watch src/index.ts
 
 [1G[0K✅ Server running on port 4000
-[90m9:51:29 PM[39m [96m[tsx][39m [33mPrevious process hasn't exited yet. Force killing...[39m
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m Lifecycle script `dev` failed with error:
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mcode[39m [33m130[39m
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mpath[39m /Users/tilek/Desktop/Manavault/Brainrow/apps/backend
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mworkspace[39m @brainrow/backend@0.1.0
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mlocation[39m /Users/tilek/Desktop/Manavault/Brainrow/apps/backend
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m command failed
-[1G[0K⠙[1G[0K[1mnpm[22m [31merror[39m [94mcommand[39m sh -c tsx watch src/index.ts
-[1G[0K⠙[1G[0K
